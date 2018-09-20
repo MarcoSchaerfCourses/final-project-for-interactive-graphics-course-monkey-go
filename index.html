@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Go Monkey!</title>
+	<meta charset="utf-8">
+	<style>body, html { overflow: hidden; }</style>
+	<link rel="stylesheet" type="text/css" href="css/game.css" />
+</head>
+
+<body style = "margin: 0;">
+<div id = 'container'></div>
+
+<button class = "button restartButton" id = 'restartButton'>Press to Restart</button>
+
+
+<span class = "label command1" id = 'pause&restart'>'Space' &#8594 Pause | 'R' &#8594 Restart</span>
+<span class = "label command2">'Left/Right' &#8594 Move | 'Up' &#8594 Jump</span>
+<span class = "label command3" id = 'passes'>0 meters</span>
+<span class = "label command4" id = 'heart'>5</span>
+<span class = "label command5" id = 'banana'>0</span>
+<span class = "label command6" id = 'gameOver'>Game Over</span>
+<span class = "label command7" id = 'pause'>Pause</span>
+
+<div id = 'blocker'>
+	<div id = 'instructions'>
+		<strong>When you'll see the monkey click on the screen to play!</strong>
+	</div>
+</div>
+
+<script src = 'libs/three.js'></script>
+<script src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/91/three.min.js'></script>
+<script src = 'game.js'></script>
+</body>
+
+</html>
